@@ -4,6 +4,7 @@ var height = canvas.height = window.innerHeight;
 var width = canvas.width = window.innerWidth;
 
 document.addEventListener('click', draw)
+// document.addEventListener('touchstart', draw)
 
 var count = 0
 var circles = 5
